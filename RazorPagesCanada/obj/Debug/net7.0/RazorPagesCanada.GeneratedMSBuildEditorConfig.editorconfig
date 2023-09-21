@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesCanada
+build_property.RootNamespace = RazorPagesCanada
+build_property.ProjectDir = D:\programing - in Action\aspdotnetApp\RazorPagesCanada\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\programing - in Action\aspdotnetApp\RazorPagesCanada
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/accommodations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWNjb21tb2RhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/cuisine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY3Vpc2luZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/des-details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVzLWRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/destinations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVzdGluYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/restaurants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVzdGF1cmFudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/Shared/_myLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9teUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/programing - in Action/aspdotnetApp/RazorPagesCanada/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bk89ddmjd2

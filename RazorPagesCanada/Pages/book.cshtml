@@ -1,0 +1,114 @@
+@page
+@model BookingModel
+@{
+	ViewBag.Title = "Booking" ;
+	Layout = "~/Pages/Shared/_myLayout.cshtml";
+}
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<h1>Booking</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+	<!-- contact form -->
+	<div class="contact-from-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mb-5 mb-lg-0">
+					<div class="form-title">
+						<h2>Please Fill Your Information!</h2>
+					</div>
+				 	<div id="form_status">
+					</div>
+					<div class="contact-form booking">
+						<form method="POST" id="fruitkha-contact" onSubmit="return valid_datas2( this );">
+							<input type="hidden" name = "acc" value ="@Model.accid">
+							<p>
+								<input type="text" placeholder="Name" name="name" id="name">
+							</p>
+							<p>
+								<input type="email" placeholder="Email" name="email" id="email">
+								<input type="tel" placeholder="Phone Number" name="phonenumber" id="phonenumber">
+							</p>
+							<p class="label">Check In <span>Check Out</span></p>
+							<p>
+								<input type="date" name="checkin" id="checkin">
+								<input type="date" name="checkout" id="checkout">
+							</p>
+							<p>
+								<input type="text" placeholder="Number of Guests" name="guests" id="guests">
+							</p>
+							<p><button type="button" class="btn btn-primary px-4" data-toggle="modal" data-target="#confirm">Go</button></p>
+							<div class="modal" tabindex="-1" role="dialog" id="confirm">
+								<div class="modal-dialog" role="document">
+								  <div class="modal-content">
+									<div class="modal-header">
+									  <h5 class="modal-title">Confirming</h5>
+									  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									  </button>
+									</div>
+									<div class="modal-body">
+									  <p>Are You Sure About Your Information ?</p>
+									</div>
+									<div class="modal-footer">
+										<button type="submit" class="btn btn-success">Yes, Book Now</button>
+									  <button type="button" class="btn btn-secondary" data-dismiss="modal">Check Again</button>
+									</div>
+								  </div>
+								</div>
+							  </div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end contact form -->
+
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">About Canada</h2>
+						<p>Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, making it the world's second-largest country by total area, with the world's longest coastline</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- form validation js -->
+	<script src="assets/js/form-validate.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+	

@@ -1,0 +1,7 @@
+@page
+@model AboutModel
+@{}
+<h2>about page</h1>
+@foreach(var cuisine in Model.cuisineList ){
+    <p>@cuisine.id</p>
+}
